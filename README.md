@@ -66,7 +66,7 @@ stock-predict/
 │  ├─ predict.py
 ├─ models/
 ├─ app/
-│  ├─ streamlit_app.py
+│  ├─ app.py
 └─ tests/
 ```
 
