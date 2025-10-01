@@ -51,12 +51,12 @@ stock-predict/
 ├─ README.md
 ├─ requirements.txt
 ├─ data/
-│  ├─ raw/
+│  ├─ raw/ datasets -0,1,2,3
 │  ├─ processed/
 ├─ notebooks/
-│  ├─ 01-exploration.ipynb
-│  ├─ 02-preprocessing.ipynb
-│  ├─ 03-training.ipynb
+│  ├─ 01-exploration
+│  ├─ 02-preprocessing
+│  ├─ 03-training
 ├─ src/
 │  ├─ data_loader.py
 │  ├─ preprocess.py
