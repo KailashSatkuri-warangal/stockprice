@@ -31,17 +31,6 @@ kaggle datasets download -d <owner/dataset-slug> -p data/ --unzip
 **Common file(s) included:**
 - `data/stock_prices.csv` — daily OHLCV (Open, High, Low, Close, Volume) with `date`, `ticker` (optional), and other fields.
 
-**Typical columns** (may vary by dataset):
-- `Date` or `date` — trading day (YYYY-MM-DD)
-- `Open` — opening price
-- `High` — highest price
-- `Low` — lowest price
-- `Close` — closing price
-- `Adj Close` — adjusted close (if provided)
-- `Volume` — traded volume
-- `Ticker` — symbol (if dataset contains multiple stocks)
-
-> **Teacher's tip:** keep a copy of the raw CSV in `data/raw/` and *never* overwrite it — keep reproducibility.
 
 ---
 
